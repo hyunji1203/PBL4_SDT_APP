@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
         main_month = findViewById(R.id.main_month)
 
-        //다시 여기서부터 장학금 리스트 프래그먼트 관련 설정
+        //다시 여기서부터 장학금 리스트 프래그먼트 관련 설정하기
         var n = 0
         setFrag(n)
 
