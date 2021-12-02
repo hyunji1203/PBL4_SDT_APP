@@ -11,11 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TextView2">
+        <activity android:name=".r_test_activity"></activity>
+        <activity android:name=".Realtimetest_activity" />
         <activity
             android:name=".c_report"
             android:label="@string/title_activity_creport"
-            android:theme="@style/Theme.TextView2.NoActionBar"></activity>
+            android:theme="@style/Theme.TextView2.NoActionBar" />
         <activity android:name=".c_detail" />
+        <activity android:name=".distributionNextpgActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
